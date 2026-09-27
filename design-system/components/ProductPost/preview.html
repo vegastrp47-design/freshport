@@ -1,0 +1,57 @@
+<!doctype html>
+<!-- @dsCard group="Instagram" height=600 subtitle="The Chile Cherry post: the original next to a rebuild from this system's elements" -->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fresh Port · ProductPost</title>
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<link rel="stylesheet" href="../bundle.css">
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Poppins:wght@400;700&family=Prompt:wght@300&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: var(--surface); }
+  .row { display: flex; gap: 24px; padding: 16px; align-items: flex-start; font-family: var(--font-sans); color: var(--ink); }
+  .col { display: flex; flex-direction: column; gap: 8px; }
+  .cap { font-size: 13px; color: var(--ink-muted); }
+  .frame { width: 432px; height: 540px; overflow: hidden; border-radius: 6px; box-shadow: 0 1px 2px rgba(17,35,49,.08), 0 8px 20px rgba(17,35,49,.08); }
+  .frame > img { width: 432px; height: 540px; display: block; }
+  .post { position: relative; width: 1080px; height: 1350px; transform: scale(.4); transform-origin: 0 0; overflow: hidden;
+          background: linear-gradient(#fbfbfb, #efefef 500px, #1e2c4a 500px, #182440); }
+  .post > * { position: absolute; }
+  .hl { left: 0; right: 0; text-align: center; margin: 0; font-family: "DM Serif Text", Georgia, serif; font-weight: 400; line-height: 1;
+        -webkit-text-stroke: .036em currentColor; paint-order: stroke fill; letter-spacing: .005em; }
+  .hl1 { top: 90px; font-size: 128px; color: var(--midnight-blue); }
+  .hl2 { top: 208px; font-size: 150px; color: var(--fruit-cherry); }
+  .thai { left: 465px; top: 360px; width: 150px; height: 41px; box-sizing: border-box; border: 1px solid var(--midnight-blue); border-radius: 999px;
+          display: grid; place-items: center; font: 300 22px/1 "Prompt", sans-serif; color: var(--midnight-blue); }
+  .price { left: 0; top: 1162px; width: 330px; text-align: center; color: #fff; font-family: "Poppins", sans-serif; }
+  .price b { display: block; font-weight: 700; font-size: 89px; line-height: 1; }
+  .price span { display: block; font-weight: 400; font-size: 26px; line-height: 1.2; margin-top: 12px; }
+</style>
+<div class="row">
+  <div class="col">
+    <div class="frame"><img src="../../assets/instagram/ig-01-chile-cherry.jpg" alt="Original Chile Cherry Instagram post"></div>
+    <div class="cap">Original post</div>
+  </div>
+  <div class="col">
+    <div class="frame">
+      <div class="post">
+        <img src="../../assets/graphic-elements/corner-tab-cherry.svg" alt="" style="left:842px;top:0;width:238px;height:160px">
+        <p class="hl hl1">Chile</p>
+        <p class="hl hl2">Cherry</p>
+        <div class="thai">เชอร์รี่ ชิลี</div>
+        <img src="../../assets/graphic-elements/origin-stamp-chile.svg" alt="Freshly imported from Chile" style="left:279px;top:483px;width:221px;height:221px">
+        <img src="../../assets/graphic-elements/price-blob-corner.svg" alt="" style="left:0;top:1043px;width:335px;height:307px">
+        <div class="price"><b>280.-</b><span>(1 Pack, 500g)</span></div>
+        <img src="../../assets/graphic-elements/line-pill.svg" alt="LINE @freshport" style="left:384px;top:1277px;width:303px;height:51px">
+      </div>
+    </div>
+    <div class="cap">Rebuilt from the system (product photo goes on the backdrop)</div>
+  </div>
+</div>
+</body>
+</html>

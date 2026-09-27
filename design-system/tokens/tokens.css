@@ -1,0 +1,177 @@
+/* Fresh Port design system — tokens.css, compiled from tokens.json. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text&family=Poppins:wght@400;700&family=Prompt:wght@300;400;500;600;700&display=swap");
+:root, [data-theme="light"] {
+  --night-deep: #0a1622;
+  --midnight-blue: #112331;
+  --harbour-navy: #1a3346;
+  --deep-sea: #26445c;
+  --gold-light: #ecd9a8;
+  --harbour-gold: #d4b26a;
+  --gold-deep: #b38f45;
+  --white: #ffffff;
+  --sea-mist: #eef2f6;
+  --sail-cream: #f7f4ee;
+  --crate-pine: #d6bc98;
+  --slate: #5a6b7a;
+  --fruit-cherry: #942432;
+  --fruit-apple-red: #a83f3c;
+  --fruit-apple-bright: #b1362f;
+  --fruit-strawberry: #d21f32;
+  --fruit-rose-apple: #b40018;
+  --fruit-rose-apple-blob: #d14e44;
+  --fruit-sweet-potato: #b03050;
+  --fruit-grape-green: #52603d;
+  --fruit-leaf-green: #185808;
+  --fruit-sage: #75966b;
+  --fruit-blueberry: #295b8c;
+  --fruit-persimmon: #b66f2f;
+  --fruit-orange: #f4a44b;
+  --fruit-pear: #e6b975;
+  --fruit-plum: #d49231;
+  --fruit-yellow: #f5cb17;
+  --price-navy: #2e354f;
+  --price-secondary: #313c38;
+  --price-promo: #7a6a51;
+  --stripe-cherry: #c4898f;
+  --stripe-apple: #d0939a;
+  --stripe-washington-cherry: #b47882;
+  --stripe-strawberry: #e69c9b;
+  --stripe-rose-apple: #d37583;
+  --stripe-sweet-potato: #d18ea0;
+  --stripe-grape: #ccd795;
+  --stripe-guava: #94c48a;
+  --stripe-mango: #81a47a;
+  --stripe-avocado: #9fa695;
+  --stripe-blueberry: #97bfe3;
+  --stripe-persimmon: #d3af8d;
+  --stripe-mandarin: #f4c28d;
+  --stripe-plum: #e4c08e;
+  --stripe-durian: #e9bf66;
+  --stripe-pear: #f7d373;
+  --stripe-jumbo-pear: #e7e0ac;
+  --surface: var(--white);
+  --surface-alt: var(--sea-mist);
+  --surface-raised: var(--white);
+  --surface-inverse: var(--midnight-blue);
+  --ink: var(--midnight-blue);
+  --ink-muted: var(--slate);
+  --ink-inverse: var(--white);
+  --eyebrow: var(--slate);
+  --accent: var(--gold-deep);
+  --line: rgba(17,35,49,.12);
+  --line-soft: rgba(17,35,49,.07);
+  --action: var(--midnight-blue);
+  --action-hover: var(--deep-sea);
+  --on-action: var(--white);
+  --focus-ring: var(--midnight-blue);
+  --highlight: var(--midnight-blue);
+  --on-gold: var(--midnight-blue);
+  --line-gold: rgba(179,143,69,.35);
+  --surface-glass: rgba(17,35,49,.04);
+  --status-open: #1fb866;
+}
+[data-theme="dark"] {
+  --surface: var(--midnight-blue);
+  --surface-alt: var(--night-deep);
+  --surface-raised: var(--harbour-navy);
+  --surface-inverse: var(--white);
+  --ink: var(--white);
+  --ink-muted: rgba(255,255,255,.8);
+  --ink-inverse: var(--midnight-blue);
+  --eyebrow: var(--harbour-gold);
+  --accent: var(--harbour-gold);
+  --line: rgba(255,255,255,.18);
+  --line-soft: rgba(255,255,255,.1);
+  --action: var(--white);
+  --action-hover: #eaeff3;
+  --on-action: var(--midnight-blue);
+  --focus-ring: var(--white);
+  --highlight: var(--harbour-gold);
+  --line-gold: rgba(212,178,106,.55);
+  --surface-glass: rgba(255,255,255,.06);
+}
+[data-theme="cream"] {
+  --surface: var(--sail-cream);
+  --surface-alt: var(--white);
+  --surface-raised: var(--white);
+  --surface-inverse: var(--midnight-blue);
+  --ink: var(--midnight-blue);
+  --ink-muted: var(--slate);
+  --ink-inverse: var(--white);
+  --eyebrow: var(--gold-deep);
+  --accent: var(--gold-deep);
+  --highlight: var(--gold-deep);
+  --line-gold: rgba(179,143,69,.35);
+  --surface-glass: rgba(17,35,49,.04);
+}
+:root {
+  --space-2xs: 6px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-section: 104px;
+  --slide-margin: 110px;
+  --radius-sm: 8px;
+  --radius-icon: 12px;
+  --radius-tile: 14px;
+  --radius-card: 16px;
+  --radius-slide-card: 24px;
+  --radius-panel: 26px;
+  --radius-pill: 999px;
+  --radius-round: 50%;
+  --shadow-sm: 0 1px 2px rgba(17,35,49,.05), 0 8px 20px rgba(17,35,49,.06);
+  --shadow-md: 0 2px 6px rgba(17,35,49,.06), 0 20px 46px rgba(17,35,49,.10);
+  --shadow-float: 0 20px 50px rgba(17,35,49,.16);
+  --shadow-hover: 0 10px 24px rgba(17,35,49,.18);
+  --shadow-card-profile: 0 22px 50px rgba(17,35,49,.07);
+  --shadow-lift: 0 30px 60px rgba(17,35,49,.14);
+  --shadow-gold: 0 10px 30px rgba(212,178,106,.35);
+  --shadow-header: 0 8px 24px rgba(0,0,0,.2);
+  --container: 1180px;
+  --control-lg: 50px;
+  --control-sm: 42px;
+  --icon-tile: 46px;
+  --header-height: 76px;
+  --slide-width: 1920px;
+  --icon: 22px;
+  --font-display: "DM Serif Display", "Prompt", Georgia, serif;
+  --font-sans: "Prompt", system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
+  --font-headline: "DM Serif Text", "DM Serif Display", Georgia, serif;
+  --font-poppins: "Poppins", "Prompt", system-ui, sans-serif;
+}
+.display-hero { font-family: var(--font-display); font-size: 68px; line-height: 1.05; font-weight: 400; letter-spacing: -0.01em; }}
+.heading-2 { font-family: var(--font-display); font-size: 46px; line-height: 1.12; font-weight: 400; letter-spacing: -0.01em; }}
+.display-sm { font-family: var(--font-display); font-size: 30px; line-height: 1.2; font-weight: 400; }}
+.fruit-name { font-family: var(--font-display); font-size: 20px; line-height: 1.2; font-weight: 400; }}
+.quote { font-family: var(--font-display); font-size: 22px; line-height: 1.45; font-weight: 400; }}
+.step-number { font-family: var(--font-display); font-size: 40px; line-height: 1; font-weight: 400; }}
+.eyebrow { font-family: var(--font-sans); font-size: 12.5px; line-height: 1.4; font-weight: 500; letter-spacing: 0.16em; }}
+.thai-sub { font-family: var(--font-sans); font-size: 18px; line-height: 1.5; font-weight: 300; }}
+.hero-thai { font-family: var(--font-sans); font-size: 21px; line-height: 1.5; font-weight: 300; }}
+.card-title { font-family: var(--font-sans); font-size: 18px; line-height: 1.3; font-weight: 600; }}
+.lede { font-family: var(--font-sans); font-size: 17.5px; line-height: 1.7; font-weight: 400; }}
+.faq-question { font-family: var(--font-sans); font-size: 17.5px; line-height: 1.45; font-weight: 500; }}
+.body { font-family: var(--font-sans); font-size: 17px; line-height: 1.7; font-weight: 400; }}
+.body-sm { font-family: var(--font-sans); font-size: 15px; line-height: 1.65; font-weight: 400; }}
+.button { font-family: var(--font-sans); font-size: 15.5px; line-height: 1; font-weight: 500; }}
+.price { font-family: var(--font-sans); font-size: 32px; line-height: 1.1; font-weight: 600; }}
+.caption { font-family: var(--font-sans); font-size: 13.5px; line-height: 1.5; font-weight: 400; }}
+.label-caps { font-family: var(--font-sans); font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.14em; }}
+.profile-cover-title { font-family: var(--font-sans); font-size: 86px; line-height: 1.14; font-weight: 600; letter-spacing: -0.01em; }}
+.profile-title { font-family: var(--font-sans); font-size: 60px; line-height: 1.22; font-weight: 600; letter-spacing: -0.005em; }}
+.profile-en { font-family: var(--font-display); font-size: 32px; line-height: 1.2; font-weight: 400; font-style: italic; }}
+.profile-eyebrow { font-family: var(--font-sans); font-size: 20px; line-height: 1.3; font-weight: 500; letter-spacing: 0.02em; }}
+.profile-sub { font-family: var(--font-sans); font-size: 21px; line-height: 1.55; font-weight: 400; }}
+.profile-card-title { font-family: var(--font-sans); font-size: 27px; line-height: 1.25; font-weight: 600; }}
+.profile-label { font-family: var(--font-sans); font-size: 15px; line-height: 1.3; font-weight: 600; letter-spacing: 0.16em; }}
+.profile-stat { font-family: var(--font-display); font-size: 188px; line-height: 0.9; font-weight: 400; letter-spacing: -0.02em; }}
+.profile-kpi { font-family: var(--font-display); font-size: 62px; line-height: 1; font-weight: 400; }}
+.ig-headline { font-family: var(--font-headline); font-size: 128px; line-height: 1.0; font-weight: 400; }}
+.ig-headline-fruit { font-family: var(--font-headline); font-size: 150px; line-height: 1.0; font-weight: 400; }}
+.ig-thai-pill { font-family: var(--font-sans); font-size: 22px; line-height: 1.2; font-weight: 300; }}
+.ig-price { font-family: var(--font-poppins); font-size: 89px; line-height: 1.0; font-weight: 700; }}
+.ig-unit { font-family: var(--font-poppins); font-size: 26px; line-height: 1.2; font-weight: 400; }}
+.ig-handle { font-family: var(--font-poppins); font-size: 27px; line-height: 1.0; font-weight: 400; }}
+.ig-stamp { font-family: var(--font-headline); font-size: 18px; line-height: 1.0; font-weight: 400; letter-spacing: 0.035em; }}
